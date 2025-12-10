@@ -2,7 +2,7 @@ use std::collections::{HashMap, HashSet};
 
 use aoc_runner_derive::{aoc, aoc_generator};
 #[aoc_generator(day7)]
-fn parse<'a>(input: &str) -> Vec<String> {
+fn parse(input: &str) -> Vec<String> {
     input.lines().map(|line| line.to_string()).collect()
 }
 
